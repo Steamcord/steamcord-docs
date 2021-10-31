@@ -1,4 +1,4 @@
-# Steamcord Documentation
+# Steamcord Docs
 
 To use Steamcord, you must subscribe. See the [plans](https://steamcord.io/pricing) available.
 
