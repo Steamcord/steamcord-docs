@@ -1,6 +1,6 @@
 # Steamcord Docs
 
-To use Steamcord, you must subscribe. See the [plans](https://steamcord.io/pricing) available.
+To use Steamcord, you must subscribe. See the [plans available](https://steamcord.io/pricing).
 
 ## Games currently supported
 
@@ -16,7 +16,7 @@ The following games are currently supported out of the box.
 Coming soon:
 * [DayZ](https://github.com/Steamcord/SteamcordDayZ)
 
-> Want integrate Steamcord with another Steam game? We expose everything necessary. See our [API docs](API.md).
+> Want to integrate Steamcord with another Steam game? We expose everything necessary. See our [API docs](API.md).
 
 ## Setup
 
@@ -52,7 +52,7 @@ Once setup, players can visit your organization's Steamcord page at the link fou
 
 `https://steamcord.link/CycloneRust`
 
-Once players sign into their accounts, they should appear in the [players section](https://steamcord.io/dashboard/players) of the dashboard. See the [documentation for your game](#games-currently-supported) to see how rewards are provisioned in-game.
+Once players sign into their accounts, they should appear in the [players section](https://steamcord.io/dashboard/players) of the dashboard. See the [documentation for your game](#games-currently-supported) to learn how rewards are provisioned in-game.
 
 ## Need help?
 
