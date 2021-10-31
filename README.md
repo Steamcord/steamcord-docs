@@ -6,15 +6,17 @@ To use Steamcord, you must subscribe. See the [plans](https://steamcord.io/prici
 
 The following games are currently supported out of the box.
 
-* [Garry's Mod](https://github.com/Steamcord/SteamcordGMod)
+* [Garry's Mod](https://gmod.facepunch.com/)
+  * [Steamcord GMod](https://github.com/Steamcord/SteamcordGMod)
   * Rewards are provisioned via ranks.
-* [Rust](https://github.com/Steamcord/Oxide.Ext.Steamcord)
+* [Rust](https://rust.facepunch.com/) (or [any Oxide game](https://umod.org/games))
+  * [Oxide.Ext.Steamcord](https://github.com/Steamcord/SteamcordRust)
   * Rewards are provisioned via the Oxide permission system.
 
 Coming soon:
 * [DayZ](https://github.com/Steamcord/SteamcordDayZ)
 
-> Want integrate Steamcord with another Steam game? We expose everything necessary. See our [API docs](https://github.com/Steamcord/docs/DEVELOPERS.md).
+> Want integrate Steamcord with another Steam game? We expose everything necessary. See our [API docs](https://github.com/Steamcord/docs/API.md).
 
 ## Setup
 
@@ -40,17 +42,17 @@ To reward for players for being a member of your Steam group, paste your Steam g
 
 Install and configure the appropriate [Steamcord mod](#games-currently-supported) for your game. Rewards are provisioned differently on a per-game basic.
 
-The Rust extension can be found [here](https://github.com/Steamcord/Oxide.Ext.Steamcord).
+One organization can be used for multiple game servers (eg. a Garry's Mod and Rust server owned by the same community).
 
 ### That's it! 🎉
 
-Once setup, players can visit your community's Steamcord page at the link found in the dashboard, which uses your organization's `Slug`.
+Once setup, players can visit your organization's Steamcord page at the link found in the dashboard, which uses your organization's `Slug`.
 
 #### Example
 
 `https://steamcord.link/CycloneRust`
 
-Once your players start connecting accounts, they will receive rewards!
+Once players sign into their accounts, they should appear in the [players section](https://steamcord.io/dashboard/players) of the dashboard. See the [documentation for your game](#games-currently-supported) to see how rewards are provisioned in-game.
 
 ## Need help?
 
