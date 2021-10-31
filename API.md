@@ -1,6 +1,6 @@
-# API Reference
+# API Docs
 
-Steamcord provides a REST API to access an organization's data.
+Steamcord provides a REST API to access your organization's players.
 
 ### Authentication
 
