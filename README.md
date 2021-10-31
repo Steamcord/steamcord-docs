@@ -14,7 +14,7 @@ The following games are currently supported out of the box.
 Coming soon:
 * [DayZ](https://github.com/Steamcord/SteamcordDayZ)
 
-> Want integrate Steamcord with another Steam game? We expose everything necessary. See our [developer docs](https://github.com/Steamcord/docs/API.md).
+> Want integrate Steamcord with another Steam game? We expose everything necessary. See our [developer docs](https://github.com/Steamcord/docs/DEVELOPERS.md).
 
 ## Setup
 
