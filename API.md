@@ -40,7 +40,7 @@ https://steamcord.io/api
 | `Player.SteamAccount.SteamId`     | `String`   | The player's Steam ID.              |
 | `Player.CreatedDate`              | `DateTime` | -                                   |
 
-#### Example:
+#### Example
 
 ```json
 {
