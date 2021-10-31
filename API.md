@@ -8,7 +8,7 @@ API tokens for any organization can be generated in the [API tokens section](htt
 
 The Steamcord API uses a bearer authentication scheme. When making a request, pass your API token in the `Authorization` header.
 
-#### Example:
+#### Example
 
 ```http
 Authorization: Bearer {API_TOKEN}
