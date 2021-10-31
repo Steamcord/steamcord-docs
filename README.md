@@ -14,7 +14,7 @@ The following games are currently supported out of the box.
 Coming soon:
 * [DayZ](https://github.com/Steamcord/SteamcordDayZ)
 
-> Want integrate Steamcord with another Steam game? We expose everything necessary. See our [developer docs](https://github.com/Steamcord/docs/DEVELOPERS.md).
+> Want integrate Steamcord with another Steam game? We expose everything necessary. See our [API docs](https://github.com/Steamcord/docs/DEVELOPERS.md).
 
 ## Setup
 
@@ -24,7 +24,9 @@ Navigate to the [dashboard](https://steamcord.io/dashboard) and select the appro
 
 Ensure your organization is configured correctly, pay special attention to the `Slug` setting, as that is the identifier players will see when they use Steamcord.
 
-Eg. `https://steamcord.link/{SLUG}`
+#### Example
+
+`https://steamcord.link/{SLUG}`
 
 ### Discord
 
@@ -44,7 +46,9 @@ The Rust extension can be found [here](https://github.com/Steamcord/Oxide.Ext.St
 
 Once setup, players can visit your community's Steamcord page at the link found in the dashboard, which uses your organization's `Slug`.
 
-Eg. `https://steamcord.link/CycloneRust`
+#### Example
+
+`https://steamcord.link/CycloneRust`
 
 Once your players start connecting accounts, they will receive rewards!
 
