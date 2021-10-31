@@ -1,6 +1,6 @@
 # Steamcord Docs
 
-To use Steamcord, you must subscribe. See the [plans available](https://steamcord.io/pricing).
+To use Steamcord, you must subscribe. See the [subscription plans available](https://steamcord.io/pricing).
 
 ## Games currently supported
 
