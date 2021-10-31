@@ -1,6 +1,6 @@
 # Steamcord Docs
 
-To use Steamcord, you must subscribe. See the [subscription plans available](https://steamcord.io/pricing).
+To use Steamcord, you must subscribe. See the Steamcord's [subscription plans](https://steamcord.io/pricing).
 
 ## Games currently supported
 
@@ -9,7 +9,7 @@ The following games are currently supported out of the box.
 * [Garry's Mod](https://gmod.facepunch.com/)
   * [Steamcord GMod](https://github.com/Steamcord/SteamcordGMod)
   * Rewards are provisioned via ranks.
-* [Rust](https://rust.facepunch.com/) (or [any Oxide game](https://umod.org/games))
+* [Rust](https://rust.facepunch.com/) (or any [Oxide game](https://umod.org/games))
   * [Oxide.Ext.Steamcord](https://github.com/Steamcord/Oxide.Ext.Steamcord)
   * Rewards are provisioned via the Oxide permission system.
 
