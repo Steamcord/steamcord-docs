@@ -30,7 +30,7 @@ https://steamcord.io/api
 
 ## The Players Resource
 
-### The Player Object  
+### Player Object  
 
 | Field                             | Type       | Description                         |
 | --------------------------------- | ---------- | ----------------------------------- |
