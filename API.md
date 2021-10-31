@@ -28,7 +28,7 @@ https://steamcord.io/api
 | 200 (OK)           | Success                                                 |
 | 401 (Unauthorized) | See the `WWW-Authenticate` header for more information. |
 
-## The Players Resource
+## Players Resource
 
 ### Player Object  
 
