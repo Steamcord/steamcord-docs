@@ -20,7 +20,6 @@ Authorization: Bearer {API_TOKEN}
 https://steamcord.io/api
 ```
 
-
 ### Status Codes
 
 | Code               | Meaning                                                 |
@@ -32,27 +31,30 @@ https://steamcord.io/api
 
 ### Player Object  
 
-| Field                             | Type       | Description                         |
-| --------------------------------- | ---------- | ----------------------------------- |
-| `Player.PlayerId`                 | `Int32`    | -                                   |
-| `Player.DiscordAccount.DiscordId` | `String`   | -                                   |
-| `Player.DiscordAccount.Username`  | `String`   | The player's full Discord username. |
-| `Player.SteamAccount.SteamId`     | `String`   | The player's Steam ID.              |
-| `Player.CreatedDate`              | `DateTime` | -                                   |
+| Field                      | Type        | Description                         |
+| -------------------------- | ----------- | ----------------------------------- |
+| `playerId`                 | `Int32`     | -                                   |
+| `discordAccount.discordId` | `String`    | -                                   |
+| `discordAccount.username`  | `String`    | The player's full Discord username. |
+| `steamAccount.steamId`     | `String`    | The player's Steam ID.              |
+| `createdDate`              | `DateTime`  | UTC                                 |
+| `modifiedDate`             | `DateTime?` | UTC                                 |
+
 
 #### Example
 
 ```json
 {
-    "PlayerId": 1,
-    "DiscordAccount": {
-        "DiscordId": "304797177538936832",
-        "DiscordUsername": "Jacob#3500"
+    "playerId": 1,
+    "discordAccount": {
+        "discordId": "304797177538936832",
+        "discordUsername": "Jacob#3500",
     },
-    "SteamAccount": {
-        "SteamId": "76561198117837537"
+    "steamAccount": {
+        "steamId": "76561198117837537"
     },
-    "CreatedDate": "-"
+    "createdDate": "2021-10-31 17:34:46.896816",
+    "modifiedDate": "2021-10-31 17:45:49.823991"
 }
 ```
 
@@ -63,13 +65,15 @@ https://steamcord.io/api
 
 | Name        | Type     | Description                      |
 | ----------- | -------- | -------------------------------- |
-| `PlayerId`  | `Int32`  | -                                |
-| `DiscordId` | `String` | -                                |
-| `SteamId`   | `String` | -                                |
-| `Limit`     | `Int32`  | The number of players to return. |
+| `playerId`  | `Int32`  | -                                |
+| `discordId` | `String` | -                                |
+| `steamId`   | `String` | -                                |
+| `limit`     | `Int32`  | The number of players to return. |
 
 #### Example
 
 ```sh
-curl https://steamcord.io/api/players?discordId=304797177538936832 -H "Authorization: Bearer {API_TOKEN}"
+curl -X 'GET' \
+  'https://steamcord.io/api/players' \
+  -H 'Authorization: Bearer {API_TOKEN}'
 ```
