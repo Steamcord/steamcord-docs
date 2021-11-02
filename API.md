@@ -49,7 +49,7 @@ https://steamcord.io/api
     "playerId": 1,
     "discordAccount": {
         "discordId": "304797177538936832",
-        "discordUsername": "Jacob#3500",
+        "username": "Jacob#3500",
     },
     "steamAccount": {
         "steamId": "76561198117837537"
@@ -70,7 +70,7 @@ https://steamcord.io/api
 | `discordId`     | `String`   | -                                |
 | `steamId`       | `String`   | -                                |
 | `limit`         | `Int32`    | The number of players to return. |
-| `modifiedAfter` | `DateTime` | -                                |
+| `modifiedAfter` | `DateTime` | UTC                              |
 
 #### Example
 
