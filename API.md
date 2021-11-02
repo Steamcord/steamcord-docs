@@ -26,6 +26,7 @@ https://steamcord.io/api
 | ------------------ | ------------------------------------------------------- |
 | 200 (OK)           | Success                                                 |
 | 401 (Unauthorized) | See the `WWW-Authenticate` header for more information. |
+| 403 (Forbidden)    | Subscription status inactive.                           |
 
 ## Players Resource
 
@@ -63,17 +64,18 @@ https://steamcord.io/api
 
 #### Query String Parameters
 
-| Name        | Type     | Description                      |
-| ----------- | -------- | -------------------------------- |
-| `playerId`  | `Int32`  | -                                |
-| `discordId` | `String` | -                                |
-| `steamId`   | `String` | -                                |
-| `limit`     | `Int32`  | The number of players to return. |
+| Name            | Type       | Description                      |
+| --------------- | ---------- | -------------------------------- |
+| `playerId`      | `Int32`    | -                                |
+| `discordId`     | `String`   | -                                |
+| `steamId`       | `String`   | -                                |
+| `limit`         | `Int32`    | The number of players to return. |
+| `modifiedAfter` | `DateTime` | -                                |
 
 #### Example
 
 ```shell
 curl -X 'GET' \
-  'https://steamcord.io/api/players' \
+  'https://steamcord.io/api/players?limit=3&modifiedAfter=2021-10-31%2017%3A45%3A49.823991' \
   -H 'Authorization: Bearer {API_TOKEN}'
 ```
