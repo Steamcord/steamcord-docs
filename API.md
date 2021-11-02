@@ -72,7 +72,7 @@ https://steamcord.io/api
 
 #### Example
 
-```sh
+```shell
 curl -X 'GET' \
   'https://steamcord.io/api/players' \
   -H 'Authorization: Bearer {API_TOKEN}'
