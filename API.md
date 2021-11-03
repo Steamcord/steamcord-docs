@@ -49,7 +49,7 @@ https://steamcord.io/api
     "playerId": 1,
     "discordAccount": {
         "discordId": "304797177538936832",
-        "username": "Jacob#3500",
+        "username": "Jacob#3500"
     },
     "steamAccount": {
         "steamId": "76561198117837537"
