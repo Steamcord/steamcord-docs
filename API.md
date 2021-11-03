@@ -26,7 +26,7 @@ https://steamcord.io/api
 | ------------------ | ------------------------------------------------------- |
 | 200 (OK)           | Success                                                 |
 | 401 (Unauthorized) | See the `WWW-Authenticate` header for more information. |
-| 403 (Forbidden)    | Subscription status inactive.                           |
+| 403 (Forbidden)    | Subscription expired                                    |
 
 ## Players Resource
 
