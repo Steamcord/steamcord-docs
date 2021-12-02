@@ -43,9 +43,9 @@ Steamcord uses [SteamID64](https://developer.valvesoftware.com/wiki/SteamID)s in
 | Field                      | Type        | Description                         |
 | -------------------------- | ----------- | ----------------------------------- |
 | `playerId`                 | `Int32`     | -                                   |
-| `discordAccount.discordId` | `String`    | -                                   |
-| `discordAccount.username`  | `String`    | The player's full Discord username. |
-| `steamAccount.steamId`     | `String`    | The player's Steam ID.              |
+| `discordAccount.discordId` | `string`    | -                                   |
+| `discordAccount.username`  | `string`    | The player's full Discord username. |
+| `steamAccount.steamId`     | `string`    | The player's Steam ID.              |
 | `createdDate`              | `DateTime`  | UTC                                 |
 | `modifiedDate`             | `DateTime?` | UTC                                 |
 
