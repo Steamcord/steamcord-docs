@@ -106,9 +106,9 @@ Pushes the specified Steam IDs onto the processing queue. Steam IDs not associat
 
 #### Request Body
 
-| Name            | Type       | Description                 |
-| --------------- | ---------- | --------------------------- |
-| `steamIds`      | `string[]` | An array of Steam IDs push. |
+| Name            | Type       | Description                    |
+| --------------- | ---------- | ------------------------------ |
+| `steamIds`      | `string[]` | An array of Steam IDs to push. |
 
 #### Example
 ```bash
