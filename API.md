@@ -94,7 +94,7 @@ curl -X 'GET' \
 
 ## Steam Group Queue
 
-Because of limitations with Steam's Web API, it is not possible to get all members of a Steam group reliably. As a result, to update a player's group, you must manually queue the Steam IDs of the `Player` objects you wish to update. Invalid Steam IDs will be ignored.
+Because of limitations with Steam's Web API, it is not possible to get all members of a Steam group reliably. As a result, to update a player's Steam groups, you must manually queue the Steam IDs of the `Player` objects you wish to update. Invalid Steam IDs will be ignored.
 
 ### Push a Steam ID
 `POST /steam-groups/queue/{steamGroupId}`
