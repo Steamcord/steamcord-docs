@@ -1,0 +1,19 @@
+{
+  "name": "Steamcord",
+  "version": "0.0.1",
+  "description": "Incentivise players to get involved and link accounts on multiple platforms.",
+  "main": "index.js",
+  "authors": {
+    "name": "Jacob Stein",
+    "email": "contact@steamcord.io"
+  },
+  "repository": "https://github.com/Steamcord/Steamcord",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}

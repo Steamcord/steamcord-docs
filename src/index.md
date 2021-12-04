@@ -1,4 +1,4 @@
-# Steamcord Docs
+# Getting Started
 
 To use Steamcord, you must subscribe. See the Steamcord's [subscription plans](https://steamcord.io/pricing).
 
@@ -16,7 +16,7 @@ The following games are currently supported out of the box.
 Coming soon:
 * [DayZ](https://github.com/Steamcord/SteamcordDayZ)
 
-> Want to integrate Steamcord with another Steam game? We expose everything necessary. See our [API docs](API.md).
+> Want to integrate Steamcord with another Steam game? We expose everything necessary. See our [API docs](./api/).
 
 ## Setup
 
@@ -44,7 +44,7 @@ Install and configure the appropriate [Steamcord mod](#games-currently-supported
 
 One organization can be used for multiple game servers (eg. a Garry's Mod and Rust server owned by the same community).
 
-### That's it! 🎉
+### That's it! :tada:
 
 Once setup, players can visit your organization's Steamcord page at the link found in the dashboard, which uses your organization's `Slug`.
 
