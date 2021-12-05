@@ -39,4 +39,5 @@ All request bodies must have a content type of `application/json`.
 
 ## Steam IDs
 
-Steamcord uses [SteamID64](https://developer.valvesoftware.com/wiki/SteamID)s internally. All invalid Steam IDs will be ignored.
+Steamcord uses [SteamID64](https://developer.valvesoftware.com/wiki/SteamID)s internally. All
+invalid Steam IDs will be ignored.
