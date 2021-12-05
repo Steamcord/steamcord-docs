@@ -16,6 +16,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
+    ['link', { rel: 'icon', href: 'https://steamcord.io/favicon.ico' }],
     ['meta', { name: 'theme-color', content: '#6200ee' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
@@ -34,8 +35,6 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-      },
-      {
         text: 'Steamcord',
         link: 'https://steamcord.io'
       }
@@ -53,7 +52,9 @@ module.exports = {
           title: 'API',
           collapsable: false,
           children: [
-            '/api/'
+            '/api/',
+            '/api/players-resource',
+            '/api/steam-group-queue'
           ],
         }
       ],
