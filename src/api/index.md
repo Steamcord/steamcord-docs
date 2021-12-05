@@ -1,6 +1,6 @@
 # Introduction
 
-### Authentication
+## Authentication
 
 API tokens for any organization can be generated in the
 [API tokens section](https://steamcord.io/dashboard/tokens) of the dashboard. For security reasons,
@@ -10,24 +10,24 @@ token a descriptive name. API tokens have no expiration, but can be revoked at a
 The Steamcord API uses a bearer authentication scheme. When making a request, pass your API token in
 the `Authorization` header.
 
-#### Example
+### Example
 
 ```http
 Authorization: Bearer {API_TOKEN}
 ```
 
-### Base URL
+## Base URL
 
 ```
 https://steamcord.io/api
 ```
 
 
-### Content Type
+## Content Type
 
 All request bodies must have a content type of `application/json`.
 
-### Status Codes
+## Status Codes
 
 | Code               | Meaning                                                 |
 | ------------------ | ------------------------------------------------------- |
@@ -37,6 +37,6 @@ All request bodies must have a content type of `application/json`.
 | 403 (Forbidden)    | Subscription expired                                    |
 | 429 (Rate Limit)   | -                                                       |
 
-### Steam IDs
+## Steam IDs
 
 Steamcord uses [SteamID64](https://developer.valvesoftware.com/wiki/SteamID)s internally. All invalid Steam IDs will be ignored.
