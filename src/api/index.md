@@ -4,8 +4,8 @@
 
 API tokens for any organization can be generated in the
 [API tokens section](https://steamcord.io/dashboard/tokens) of the dashboard. For security reasons,
-you cannot view your API token once it is initially created. For this reason, be sure to give your
-token a descriptive name. API tokens have no expiration, but can be revoked at any time.
+you cannot view your API token after it is initially created. For this reason, be sure to give your
+token a descriptive name. API tokens have no expiration and can be revoked at any time.
 
 The Steamcord API uses a bearer authentication scheme. When making a request, pass your API token in
 the `Authorization` header.

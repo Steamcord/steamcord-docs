@@ -5,6 +5,7 @@ reliably. As a result, to update a player's Steam groups, you must manually queu
 the `Player` objects you wish to update. Invalid Steam IDs will be ignored.
 
 ## Push a Steam ID
+
 `POST /steam-groups/queue`
 
 Pushes the specified Steam IDs onto the processing queue. Steam IDs not associated with a `Player`

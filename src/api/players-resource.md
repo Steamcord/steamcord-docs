@@ -1,6 +1,6 @@
 # Players Resource
 
-## Player Object  
+## Player Object
 
 | Field                      | Type        | Description                         |
 | -------------------------- | ----------- | ----------------------------------- |
@@ -30,6 +30,7 @@
 ```
 
 ## Get All Players
+
 `GET /players`
 
 > __Tip__ \
@@ -37,14 +38,14 @@
 
 ### Query String Parameters
 
-| Name           | Type       | Description                      |
-| -------------- | ---------- | -------------------------------- |
-| `playerId`     | `Int32`    | -                                |
-| `discordId`    | `string`   | -                                |
-| `steamId`      | `string`   | -                                |
-| `limit`        | `Int32`    | The number of players to return. |
-| `createdDate`  | `DateTime` | UTC                              |
-| `modifiedDate` | `DateTime` | UTC                              |
+| Name            | Type       | Description                      |
+| --------------- | ---------- | -------------------------------- |
+| `playerId`      | `Int32`    | -                                |
+| `discordId`     | `string`   | -                                |
+| `steamId`       | `string`   | -                                |
+| `limit`         | `Int32`    | The number of players to return. |
+| `createdAfter`  | `DateTime` | UTC                              |
+| `modifiedAfter` | `DateTime` | UTC                              |
 
 ### Example
 
