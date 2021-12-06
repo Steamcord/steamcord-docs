@@ -44,19 +44,19 @@ module.exports = {
     sidebar: {
       '/': [
         {
-          title: 'Setup',
+          title: 'Guide',
           collapsable: false,
           children: [
             ''
           ],
         },
         {
-          title: 'API',
+          title: 'API Reference',
           collapsable: false,
           children: [
-            '/api/',
-            '/api/players-resource',
-            '/api/steam-group-queue'
+            '/api-reference/',
+            '/api-reference/players-resource',
+            '/api-reference/steam-group-queue'
           ],
         }
       ],
