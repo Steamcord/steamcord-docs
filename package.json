@@ -1,10 +1,10 @@
 {
-  "name": "Steamcord",
+  "name": "SteamcordDocs",
   "version": "0.0.1",
-  "description": "Incentivise players to get involved and link accounts on multiple platforms.",
+  "description": "Incentivize players to join your gaming community across platforms.",
   "main": "index.js",
   "authors": {
-    "name": "Jacob Stein",
+    "name": "Steamcord Team",
     "email": "contact@steamcord.io"
   },
   "repository": "https://github.com/Steamcord/Steamcord",
