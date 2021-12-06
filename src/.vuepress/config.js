@@ -19,7 +19,8 @@ module.exports = {
     ['link', { rel: 'icon', href: 'https://steamcord.io/favicon.ico' }],
     ['meta', { name: 'theme-color', content: '#6200ee' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['meta', { name: 'og:image', content: 'https://steamcord.io/logo.png' }]
   ],
 
   base: '/docs/',
