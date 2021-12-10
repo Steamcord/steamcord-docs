@@ -10,7 +10,7 @@ The following games are currently supported out of the box.
   * [Steamcord GMod](https://github.com/Steamcord/SteamcordGMod)
   * Rewards are provisioned via ranks.
 * [Rust](https://rust.facepunch.com/) (or any [Oxide/uMod game](https://umod.org/games))
-  * [Oxide.Ext.Steamcord](https://github.com/Steamcord/Oxide.Ext.Steamcord)
+  * [Steamcord Rust](https://github.com/Steamcord/steamcord-rust)
   * Rewards are provisioned via the Oxide permission system.
 
 Coming soon:
