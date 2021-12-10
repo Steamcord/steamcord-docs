@@ -59,6 +59,13 @@ module.exports = {
             '/api-reference/players-resource',
             '/api-reference/steam-group-queue'
           ],
+        },
+        {
+          title: 'Integrations',
+          collapsable: false,
+          children: [
+            '/integrations/rust'
+          ]
         }
       ],
     },
