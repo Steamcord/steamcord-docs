@@ -1,4 +1,4 @@
-# Steamcord Rust
+# Rust
 
 ## Installation
 
@@ -44,8 +44,8 @@ Below is the default configuration:
 
 ### `Rewards` Array
 
-`Rewards` is a JSON array of `Reward` objects, each with a `Requirements` array and a `GroupName`
-property.
+`Rewards` is an array of `Reward` objects, each with `Requirements` and `GroupName`
+properties.
 
 The `Requirements` property is used to specify the required conditions for a player to earn the
 reward.
