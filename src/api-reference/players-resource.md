@@ -1,6 +1,6 @@
 # Players Resource
 
-## Player Object
+## The Player Object
 
 | Field                      | Type        | Description                         |
 | -------------------------- | ----------- | ----------------------------------- |
@@ -38,14 +38,21 @@
 
 ### Query String Parameters
 
-| Name            | Type       | Description                      |
-| --------------- | ---------- | -------------------------------- |
-| `playerId`      | `Int32`    | -                                |
-| `discordId`     | `string`   | -                                |
-| `steamId`       | `string`   | -                                |
-| `limit`         | `Int32`    | The number of players to return. |
-| `createdAfter`  | `DateTime` | UTC                              |
-| `modifiedAfter` | `DateTime` | UTC                              |
+| Name            | Type       | Default | Description                                   |
+| --------------- | ---------- | ------- | --------------------------------------------- |
+| `playerId`      | `Int32`    | -       | -                                             |
+| `discordId`     | `string`   | -       | -                                             |
+| `steamId`       | `string`   | -       | -                                             |
+| `limit`         | `Int32`    | `100`   | The number of players to return. At most 100. |
+| `page`          | `Int32`    | `0`     | The zero-indexed page.                        |
+| `createdAfter`  | `DateTime` | -       | UTC                                           |
+| `modifiedAfter` | `DateTime` | -       | UTC                                           |
+
+### Response Headers
+
+| Name            | Description                                              |
+| --------------- | -------------------------------------------------------- |
+| `X-Total-Pages` | The total number of pages, calculated using the `limit`. |
 
 ### Example
 
