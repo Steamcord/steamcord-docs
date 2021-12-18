@@ -1,29 +1,50 @@
 # Players Resource
 
-## The Player Object
+## The `Player` Object
 
-| Field                      | Type        | Description                         |
-| -------------------------- | ----------- | ----------------------------------- |
-| `playerId`                 | `Int32`     | -                                   |
-| `discordAccount.discordId` | `string`    | -                                   |
-| `discordAccount.username`  | `string`    | The player's full Discord username. |
-| `steamAccount.steamId`     | `string`    | -                                   |
-| `createdDate`              | `DateTime`  | UTC                                 |
-| `modifiedDate`             | `DateTime?` | UTC                                 |
+| Field                      | Type               | Description                         |
+| -------------------------- | ------------------ | ----------------------------------- |
+| `playerId`                 | `Int32`            | -                                   |
+| `discordAccounts`          | `DiscordAccount[]` | -                                   |
+| `steamAccounts`            | `SteamAccount[]`   | -                                   |
+| `createdDate`              | `DateTime`         | UTC                                 |
+| `modifiedDate`             | `DateTime?`        | UTC                                 |
 
+### The `DiscordAccount` Object
+
+| Field          | Type        | Description                         |
+| -------------- | ----------- | ----------------------------------- |
+| `discordId`    | `string`    | -                                   |
+| `username`     | `string`    | The player's full Discord username. |
+
+### The `SteamAccount` Object
+
+| Field     | Type     | Description |
+| --------- | -------- | ----------- |
+| `steamId` | `string` | -           |
+
+### Remarks
+
+One player can have multiple accounts, however one account cannot belong to multiple
+players. In the case that two players sign into the same account, the associated `Player` objects
+will be merged.
 
 ### Example
 
 ```json
 {
     "playerId": 1,
-    "discordAccount": {
-        "discordId": "304797177538936832",
-        "username": "Jacob#3500"
-    },
-    "steamAccount": {
-        "steamId": "76561198117837537"
-    },
+    "discordAccounts": [
+        {
+            "discordId": "304797177538936832",
+            "username": "Jacob#3500"
+        }
+    ],
+    "steamAccounts": [
+        {
+            "steamId": "76561198117837537"
+        }
+    ],
     "createdDate": "2021-10-31 17:34:46.896816",
     "modifiedDate": "2021-10-31 17:45:49.823991"
 }
@@ -32,9 +53,6 @@
 ## Get All Players
 
 `GET /players`
-
-> __Tip__ \
-> If writing a custom Steamcord integration, use this endpoint to provision rewards on an interval.
 
 ### Query String Parameters
 
