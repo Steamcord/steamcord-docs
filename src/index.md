@@ -26,8 +26,8 @@ Coming soon:
 Navigate to the [dashboard](https://steamcord.io/dashboard) and select the appropriate organization
 from the nav bar. If no organization exists, you will be prompted to create one.
 
-Ensure your organization is configured correctly. Pay special attention to the `Slug` setting, as
-it is the identifier players will see when they use your Steamcord site.
+Ensure your organization is configured correctly. Pay special attention to the `Slug` setting, as it 
+is the identifier players will see when they use your Steamcord site.
 
 #### Example
 
