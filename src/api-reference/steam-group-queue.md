@@ -12,10 +12,6 @@ Pushes the specified Steam IDs onto the processing queue. Steam IDs not associat
 object will be ignored. In most cases, you should queue the Steam IDs of all players online your
 game server.
 
-> __Important__ \
-> This endpoint is rate limited aggressively. Please refrain from more than one request per minute.
-Abuse of this endpoint may jeapordize your account.
-
 ### Request Body
 
 | Name            | Type       | Description                    |
