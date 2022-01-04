@@ -22,14 +22,13 @@ Authorization: Bearer {API_TOKEN}
 https://steamcord.io/api
 ```
 
-
 ## Content Type
 
 All request bodies must have a content type of `application/json`.
 
 ## Rate Limits
 
-To allow request burts, API endpoints are rate limited to 300 requests per minute but no more
+To allow request bursts, API endpoints are rate limited to 300 requests per minute but no more
 than 3,000 per hour.
 
 ### Response Headers
