@@ -64,7 +64,7 @@ module.exports = {
           title: 'Integrations',
           collapsable: false,
           children: [
-            '/integrations/rust'
+            '/integrations/rust-plugin'
           ]
         }
       ],
