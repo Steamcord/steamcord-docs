@@ -1,6 +1,6 @@
 # Steam Group Queue
 
-Because of limitations with Steam's Web API, it is not possible to get all members of a Steam group
+Because of limitations of Steam's Web API, it is not possible to get all members of a Steam group
 reliably. As a result, to update players' Steam groups, you must manually queue the Steam IDs of
 the corresponding `Player` objects. Invalid Steam IDs will be ignored.
 
