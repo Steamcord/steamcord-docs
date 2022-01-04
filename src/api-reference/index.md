@@ -27,6 +27,19 @@ https://steamcord.io/api
 
 All request bodies must have a content type of `application/json`.
 
+## Rate Limits
+
+To allow request burts, API endpoints are rate limited to 300 requests per minute but no more
+than 3,000 per hour.
+
+### Response Headers
+
+| Name                     | Description                                           |
+| ------------------------ | ----------------------------------------------------- |
+| `X-Rate-Limit-Limit`     | The rate limit period, eg. `1h`.                      |
+| `X-Rate-Limit-Remaining` | The number of requests remaining.                     |
+| `X-Rate-Limit-Reset`     | The UTC `DateTime` when the rate limit will be reset. |
+
 ## Status Codes
 
 | Code               | Meaning                                                 |
