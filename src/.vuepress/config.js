@@ -23,8 +23,6 @@ module.exports = {
     ['meta', { name: 'og:image', content: 'https://steamcord.io/logo.png' }]
   ],
 
-  base: '/docs/',
-
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
    *
