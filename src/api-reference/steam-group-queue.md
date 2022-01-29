@@ -21,7 +21,7 @@ game server.
 ### Example
 ```bash
 curl -X 'POST' \
-  'https://steamcord.io/api/steam-groups/queue' \
+  'https://api.steamcord.io/steam-groups/queue' \
   -H 'Authorization: Bearer {API_TOKEN}' \
   -H 'Content-Type: application/json' \
   -d '["76561198117837537", "76561198111997160"]'

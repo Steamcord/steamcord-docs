@@ -76,6 +76,6 @@ will be merged.
 
 ```bash
 curl -X 'GET' \
-  'https://steamcord.io/api/players?limit=3&modifiedAfter=2021-10-31%2017%3A45%3A49.823991' \
+  'https://api.steamcord.io/players?limit=3&modifiedAfter=2021-10-31%2017%3A45%3A49.823991' \
   -H 'Authorization: Bearer {API_TOKEN}'
 ```

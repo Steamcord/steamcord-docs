@@ -19,7 +19,7 @@ Authorization: Bearer {API_TOKEN}
 ## Base URL
 
 ```
-https://steamcord.io/api
+https://api.steamcord.io
 ```
 
 ## Content Type

@@ -26,7 +26,7 @@ Below is the default configuration:
 {
   "Api": {
     "Token": "<your api token>",
-    "BaseUri": "https://steamcord.io/api"
+    "BaseUri": "https://api.steamcord.io"
   },
   "ChatCommand": "claim",
   "ProvisionRewardsOnJoin": true,
