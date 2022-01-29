@@ -1,6 +1,6 @@
 # Steamcord Documentation
 
-Live at [https://steamcord.io/docs](https://steamcord.io/docs).
+Live at [https://docs.steamcord.io](https://docs.steamcord.io).
 
 ```bash
 # compiles and hot-reloads for development
