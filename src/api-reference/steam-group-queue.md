@@ -4,13 +4,13 @@ Due to limitations of Steam's Web API, it is not possible to get all members of 
 reliably. As a result, to update players' Steam groups, you must manually queue the Steam IDs of the 
 corresponding `Player` objects. Invalid Steam IDs will be ignored.
 
-## Push a Steam ID
+## Enqueue Steam IDs
 
 `POST /steam-groups/queue`
 
-Pushes the specified Steam IDs onto the processing queue. Steam IDs not associated with a `Player`
-object will be ignored. In most cases, you should queue the Steam IDs of all players online your
-game server.
+Enqueues the specified Steam IDs for processing. Steam IDs not associated with a `Player` object
+will be ignored. In most cases, you should queue the Steam IDs of all players online your game
+server.
 
 ### Request Body
 
