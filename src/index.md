@@ -7,14 +7,13 @@ You must subscribe to use Steamcord. See our [subscription plans](https://steamc
 The following games are currently supported out of the box.
 
 * [Garry's Mod](https://gmod.facepunch.com/)
-  * [Steamcord GMod](https://github.com/Steamcord/SteamcordGMod)
-  * Rewards are provisioned via ranks.
+  * [Steamcord GMod](https://github.com/Steamcord/steamcord-gmod)
 * [Rust](https://rust.facepunch.com/) (or any [Oxide/uMod game](https://umod.org/games))
   * [Steamcord Rust](https://github.com/Steamcord/steamcord-rust)
   * Rewards are provisioned via the Oxide permission system.
 
 Coming soon:
-* [DayZ](https://github.com/Steamcord/SteamcordDayZ)
+* DayZ
 
 > Want to integrate Steamcord with another Steam game? We expose everything necessary. See the
 [API reference](./api-reference/).
@@ -24,7 +23,7 @@ Coming soon:
 ### Configuring an Organization
 
 Navigate to the [dashboard](https://steamcord.io/dashboard) and select the appropriate organization
-from the nav bar. If no organization exists, you will be prompted to create one.
+from the side nav. If no organization exists, you will be prompted to create one.
 
 Ensure your organization is configured correctly. Pay special attention to the `Slug` setting, as it 
 is the identifier players will see when they use your Steamcord site.
@@ -35,8 +34,8 @@ is the identifier players will see when they use your Steamcord site.
 
 ### Discord Settings
 
-To reward players for being a member of your Discord guild, paste your server's ID into the `Discord
-Guild ID` field and [invite the Steamcord Discord bot](https://steamcord.io/bot) to your guild.
+To reward players for being a member of your Discord guild, click the "Add to Discord" button to add
+the bot to your guild.
 
 ### Steam Settings
 
@@ -58,7 +57,7 @@ which uses your organization's `Slug`.
 
 #### Example
 
-`https://steamcord.link/CycloneRust`
+`https://steamcord.link/wolfpack`
 
 Once players use your site, they will appear in the
 [players section](https://steamcord.io/dashboard/players) of the dashboard. See the
