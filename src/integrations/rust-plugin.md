@@ -28,23 +28,26 @@ Below is the default configuration:
     "Token": "<your api token>",
     "BaseUri": "https://api.steamcord.io"
   },
-  "ChatCommand": "claim",
-  "ProvisionRewardsOnJoin": true,
+  "ChatCommands": [
+    "claim"
+  ],
+  "ChatCommandsEnabled": true,
   "Rewards": [
     {
-      "Group": "discord-steam-member",
       "Requirements": [
         "DiscordGuildMember",
         "SteamGroupMember"
-      ]
+      ],
+      "Group": "discord-steam-member"
     },
     {
-      "Group": "discord-booster",
       "Requirements": [
         "DiscordGuildBooster"
-      ]
+      ],
+      "Group": "discord-booster"
     }
-  ]
+  ],
+  "UpdateSteamGroups": true
 }
 ```
 
@@ -53,31 +56,32 @@ Below is the default configuration:
 `Token` must a valid Steamcord API token, which can be generated in the
 [API tokens](https://steamcord.io/dashboard/tokens) section of the dashboard.
 
-### `ChatCommand` string
+### `ChatCommands` array
 
-The name of the in-game Oxide command.
+An array of in-game chat command names. Multiple commands can specified and will function as
+aliases.
 
-### `ProvisionRewardsOnJoin` boolean
+### `ChatCommandsEnabled` boolean
 
-Whether to provision rewards when players join the server.
+Whether chat commands are enabled.
 
 ### `Rewards` array
 
-`Rewards` is an array of `Reward` objects, each with `Requirements` and `GroupName`
+An array of `Reward` objects, each with `Requirements` and `GroupName`
 properties.
 
 The `Requirements` property is used to specify the required conditions for a player to earn the
 reward.
 
-Allowed `Requirements` elements are as follows:
+Allowed `Requirements` values are as follows:
 
-- `Discord` - The player connected their Discord account.
+- `Discord` - The player linked their Discord account.
 - `DiscordGuildMember` - The player is a member of the configured Discord guild. If a player meets
 this requirement, they will also meet the `Discord` requirement.
 - `DiscordGuildBooster` - The player is Nitro boosting the configured Discord guild. If a player
 meets this requirement, they will also meet the `DiscordGuildMember` and `DiscordGuildBooster`
 requirements.
-- `Steam` - The player connected their Steam account.
+- `Steam` - The player linked their Steam account.
 - `SteamGroupMember` - The player is a member of the configured Steam group. If a player meets this
 requirement, they will also meet the `Steam` requirement.
 
@@ -86,3 +90,7 @@ specified group does not exist, it will be created when the plugin is loaded.
 
 Once a player meets all conditions specified in the `Requirements` array, they will be added to the
 Oxide user group specified by the `Group` property.
+
+### `UpdateSteamGroups` boolean
+
+Whether to update Steam groups. If you do not have a Steam group configured, you can disable this.
