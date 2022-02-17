@@ -17,8 +17,8 @@
 | `discordId`      | `string`    | -                                    |
 | `username`       | `string`    | The account's full Discord username. |
 | `avatar`         | `string`    | -                                    |
-| `isGuildMember`  | `bool`      | -                                    |
-| `isGuildBooster` | `bool`      | -                                    |
+| `isGuildMember`  | `bool?`     | -                                    |
+| `isGuildBooster` | `bool?`     | -                                    |
 
 ### The `SteamAccount` Object
 
