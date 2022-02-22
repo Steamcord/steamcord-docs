@@ -19,6 +19,7 @@
 | `avatar`         | `string`    | -                                    |
 | `isGuildMember`  | `bool?`     | -                                    |
 | `isGuildBooster` | `bool?`     | -                                    |
+| `isSoftUnlinked` | `bool`      | -                                    |
 
 ### The `SteamAccount` Object
 
@@ -28,6 +29,7 @@
 | `username`           | `string` | -           |
 | `avatar`             | `string` | -           |
 | `isSteamGroupMember` | `bool?`  | -           |
+| `isSoftUnlinked`     | `bool`   | -           |
 
 ### Remarks
 
@@ -46,7 +48,8 @@ will be merged.
             "username": "Jacob#3500",
             "avatar": "https://cdn.discordapp.com/avatars/304797177538936832/cb50b3412e61a9eb98049197af95a058.png",
             "isGuildMember": true,
-            "isGuildBooster": false
+            "isGuildBooster": false,
+            "isSoftUnlinked": false
         }
     ],
     "steamAccounts": [
@@ -54,7 +57,8 @@ will be merged.
             "steamId": "76561198117837537"
             "username": "Jacob",
             "avatar": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/c8/c8b970a83746bef73d3042968e8ee43bcc0c8efc_full.jpg",
-            "isSteamGroupMember": true
+            "isSteamGroupMember": true,
+            "isSoftUnlinked": false
         }
     ],
     "createdDate": "2021-10-31 17:34:46.896816",
