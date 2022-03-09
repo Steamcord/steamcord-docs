@@ -16,7 +16,7 @@ Coming soon:
 * DayZ
 
 > Want to integrate Steamcord with another Steam game? We expose everything necessary. See the
-[API reference](./api-reference/).
+[API Reference](./api-reference/).
 
 ## Quick Start
 
@@ -34,13 +34,27 @@ is the identifier players will see when they use your Steamcord site.
 
 ### Discord Settings
 
-To reward players for being a member of your Discord guild, click the "Add to Discord" button to add
+#### Discord Guild ID
+
+To reward players for being a member of your Discord guild, click the `CONNECT TO GUILD` button to add
 the bot to your guild.
+
+#### Discord Role ID
+
+To reward players with a Discord role, create a role and paste its ID into the `Discord Role ID` field.
+
+> Ensure the reward role is positioned below the bot's role.
+
+You can find your role ID by sending a message containing `\@{ROLE_NAME}`, eg. `\@linked`, and copying the numeric portion. Alternatively, navigate to the `Advanced` settings category and enable `Developer Mode`, then right-click on the role and select `Copy ID`.
+
+Toggle the switches below to set the requirements for the role. If a player no longer meets the specified requirements, the role will be removed.
 
 ### Steam Settings
 
-To reward for players for being a member of your Steam group, paste your Steam group's ID into the
+To reward for players for being a member of your Steam group, paste your Steam group  ID into the
 `Steam Group ID` field.
+
+You can find your Steam group ID on your group's edit profile page.
 
 ### Game Specific Setup
 
