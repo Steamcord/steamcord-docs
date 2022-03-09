@@ -14,9 +14,9 @@ server.
 
 ### Request Body
 
-| Name            | Type       | Description                    |
-| --------------- | ---------- | ------------------------------ |
-| `steamIds`      | `string[]` | An array of Steam IDs to push. |
+| Name            | Type       | Description                       |
+| --------------- | ---------- | --------------------------------- |
+| `steamIds`      | `string[]` | An array of Steam IDs to enqueue. |
 
 ### Example
 ```bash
