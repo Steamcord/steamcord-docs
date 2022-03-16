@@ -51,7 +51,9 @@ Toggle the switches below to set the requirements for the role. If a player no l
 
 ### Steam Settings
 
-To reward for players for being a member of your Steam group, paste your Steam group  ID into the
+#### Steam Group ID
+
+To reward for players for being a member of your Steam group, paste your Steam group ID into the
 `Steam Group ID` field.
 
 You can find your Steam group ID on your group's edit profile page.
