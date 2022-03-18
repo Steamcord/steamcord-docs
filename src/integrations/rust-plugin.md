@@ -12,7 +12,8 @@
 
 ## Chat Command
 
-Players can use `/claim` to receive their rewards in-game.
+Players can use any of the configured commands (by default `/claim`) to receive their rewards
+in-game.
 
 ## Configuration Reference
 
