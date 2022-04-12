@@ -25,12 +25,18 @@ Coming soon:
 Navigate to the [dashboard](https://steamcord.io/dashboard) and select the appropriate organization
 from the side nav. If no organization exists, you will be prompted to create one.
 
-Ensure your organization is configured correctly. Pay special attention to the `Slug` setting, as it 
-is the identifier players will see when they use your Steamcord site.
+Ensure your organization is configured correctly. Pay special attention to the `Subdomain` setting,
+as it is the identifier players will see when they use your Steamcord site.
 
 #### Example
 
-`https://steamcord.link/{SLUG}`
+`https://{Subdomain}.steamcord.link/`
+
+### Vanity Domain (Pro Only)
+
+To use a custom domain, navigate to your registrar's DNS settings and create a CNAME record pointing to
+`customers.steamcord.link`. Then, enter your custom domain into the `Vanity Domain` field and click
+save. Please allow up to five minutes for verification to complete.
 
 ### Discord Settings
 
@@ -69,11 +75,11 @@ the same community).
 ### That's it! :tada:
 
 Once setup, players can visit your organization's Steamcord site at the link found in the dashboard,
-which uses your organization's `Slug`.
+which uses your organization's `Subdomain`.
 
 #### Example
 
-`https://steamcord.link/wolfpack`
+`https://wolfpack.steamcord.link/`
 
 Once players use your site, they will appear in the
 [players section](https://steamcord.io/dashboard/players) of the dashboard. See the
