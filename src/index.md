@@ -81,8 +81,7 @@ which uses your organization's `Subdomain`.
 
 `https://wolfpack.steamcord.link/`
 
-Once players use your site, they will appear in the
-[players section](https://steamcord.io/dashboard/players) of the dashboard. See the
+Once players use your site, they will appear in the players section of the dashboard. See the
 [documentation for your game](#games-currently-supported) to learn how rewards are provisioned
 in-game.
 

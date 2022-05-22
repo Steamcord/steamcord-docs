@@ -3,8 +3,7 @@
 ## Installation
 
 1. Install [Oxide/uMod](https://umod.org/games/rust) on your game server.
-1. Download the latest version of the Steamcord Rust plugin from the
-[downloads page](https://steamcord.io/dashboard/downloads).
+1. Download the latest version of the Steamcord Rust plugin from the downloads page.
 2. Move `Steamcord.cs` into your server's `oxide/plugins` directory.
 3. Edit the `Steamcord.json` configuration file generated in the `oxide/config` directory. See the
 [configuration reference](#configuration-reference).
@@ -55,7 +54,7 @@ Below is the default configuration:
 ### `Api` object
 
 `Token` must a valid Steamcord API token, which can be generated in the
-[API tokens](https://steamcord.io/dashboard/tokens) section of the dashboard.
+API tokens section of the dashboard.
 
 ### `ChatCommands` array
 
