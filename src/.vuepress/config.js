@@ -54,6 +54,7 @@ module.exports = {
           collapsable: false,
           children: [
             '/api-reference/',
+            '/api-reference/action-queue',
             '/api-reference/players-resource',
             '/api-reference/steam-group-queue'
           ],
