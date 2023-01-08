@@ -8,8 +8,8 @@ be executed by a client. Actions belong to an Integration and can be created in 
 
 `GET /integrations/{id}/queue`
 
-Gets all queued actions for the specified server. Actions are not dequeued until their delivery is
-acknowledged.
+Gets all queued actions for the specified integration. Actions are not dequeued until their delivery
+is acknowledged.
 
 ### Example
 
