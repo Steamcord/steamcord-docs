@@ -26,7 +26,6 @@ Below is the default configuration:
 {
   "Api": {
     "Token": "<your api token>",
-    "BaseUri": "https://api.steamcord.io"
   },
   "ChatCommands": [
     "claim"
@@ -47,6 +46,7 @@ Below is the default configuration:
       "Group": "discord-booster"
     }
   ],
+  "IntegrationId": null,
   "UpdateSteamGroups": true
 }
 ```
@@ -90,6 +90,11 @@ specified group does not exist, it will be created when the plugin is loaded.
 
 Once a player meets all conditions specified in the `Requirements` array, they will be added to the
 Oxide user group specified by the `Group` property.
+
+### `IntegrationId` optional integer
+
+An (integration)[../guide/integration-guide] ID. If provided, the plugin will run all configured
+actions.
 
 ### `UpdateSteamGroups` boolean
 

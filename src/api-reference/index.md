@@ -34,7 +34,7 @@ To allow request bursts, API endpoints are rate limited to 300 requests per minu
 
 | Name                     | Description                                           |
 | ------------------------ | ----------------------------------------------------- |
-| `X-Rate-Limit-Limit`     | The rate limit period, eg. `1h`.                      |
+| `X-Rate-Limit-Limit`     | The rate limit period, e.g. `1h`.                     |
 | `X-Rate-Limit-Remaining` | The number of requests remaining.                     |
 | `X-Rate-Limit-Reset`     | The UTC `DateTime` when the rate limit will be reset. |
 

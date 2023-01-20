@@ -22,8 +22,8 @@ Coming soon:
 
 ### Configuring an Organization
 
-Navigate to the [dashboard](https://steamcord.io/dashboard) and select the appropriate organization
-from the side nav. If no organization exists, you will be prompted to create one.
+Navigate to the [dashboard](https://steamcord.io/dashboard) and select your organization. If no
+organization exists, you will be prompted to create one.
 
 Ensure your organization is configured correctly. Pay special attention to the `Subdomain` setting,
 as it is the identifier players will see when they use your Steamcord site.
@@ -51,7 +51,9 @@ To reward players with a Discord role, create a role and paste its ID into the `
 
 > Ensure the reward role is positioned below the bot's role.
 
-You can find your role ID by sending a message containing `\@{ROLE_NAME}`, eg. `\@linked`, and copying the numeric portion. Alternatively, navigate to the `Advanced` settings category and enable `Developer Mode`, then right-click on the role and select `Copy ID`.
+You can find your role ID by sending a message containing `\@{ROLE_NAME}`, e.g. `\@linked`, and
+copying the numeric portion. Alternatively, navigate to the `Advanced` settings category and enable
+`Developer Mode`, then right-click on the role and select `Copy ID`.
 
 Toggle the switches below to set the requirements for the role. If a player no longer meets the specified requirements, the role will be removed.
 
@@ -69,7 +71,7 @@ You can find your Steam group ID on your group's edit profile page.
 Install and configure the appropriate [Steamcord integration](#games-currently-supported) for your
 game. Rewards can be setup per-service and progressively.
 
-One organization can be used for multiple game servers (eg. a Garry's Mod and Rust server owned by
+One organization can be used for multiple game servers (e.g. a Garry's Mod and Rust server owned by
 the same community).
 
 ### That's it! :tada:

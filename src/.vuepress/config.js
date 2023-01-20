@@ -46,7 +46,8 @@ module.exports = {
           title: 'Guide',
           collapsable: false,
           children: [
-            ''
+            '',
+            '/guide/integration-guide'
           ],
         },
         {
