@@ -93,7 +93,7 @@ Oxide user group specified by the `Group` property.
 
 ### `IntegrationId` optional integer
 
-An (integration)[../guide/integration-guide] ID. If provided, the plugin will run all configured
+An [integration](../guide/integration-guide) ID. If provided, the plugin will run all configured
 actions.
 
 ### `UpdateSteamGroups` boolean
