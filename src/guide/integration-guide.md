@@ -54,7 +54,7 @@ group to players who link their Discord and Steam accounts you can configure two
 | Setting Name                       | Value                                                |
 | ---------------------------------- | ---------------------------------------------------- |
 | Requirements                       | `Discord`, `Steam`                                   |
-| Name                               | `add linked group`                                   |
+| Name                               | `remove linked group`                                   |
 | When to run this action            | `Every time a player does not meet the requirements` |
 | What to do when this action is run | `Remove Oxide Group`                                 |
 | Group Name                         | `linked`                                             |
